@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.services
+package com.github.m3sv.intelijplatformpluginhelloworld.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.m3sv.intelijplatformpluginhelloworld.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
